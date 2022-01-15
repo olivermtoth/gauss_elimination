@@ -1,3 +1,3 @@
 #!/bin/sh
 
-g++ main.cpp Fraction.cpp FractionException.h -o run
+g++ main.cpp Fraction.cpp Fraction.h -o run
