@@ -25,8 +25,6 @@ void printMatrix( int& table, FractionMatrix& a )
 
 int main( void )
 {	
-	system( "clear" );
-	std::cout << "\n\n\n\n";
 	int	m = getMatRow();
 	int	n = getMatCol();
 	FractionMatrix	a(m,n);
@@ -39,6 +37,5 @@ int main( void )
 
 	while ( !a.solve( det ) )
 		{getchar(); printMatrix( ++table, a ); }
-	
 }	
 
